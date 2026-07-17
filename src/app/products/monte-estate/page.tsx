@@ -39,6 +39,25 @@ export default function MonteEstatePage() {
           properties using customizable financial scenarios and Monte Carlo
           simulations, so decisions are grounded in data rather than guesswork.
         </p>
+        <div className="mt-8 flex flex-wrap items-center gap-4">
+          <a
+            href="https://monte.estate"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-cactus-deep px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+          >
+            Visit monte.estate
+            <svg viewBox="0 0 16 16" fill="none" className="h-3.5 w-3.5" aria-hidden="true">
+              <path
+                d="M6 4h6v6M12 4 4 12"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
       </Reveal>
 
       <Reveal delay={100}>

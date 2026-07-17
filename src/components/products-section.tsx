@@ -39,21 +39,40 @@ export function ProductsSection() {
                   Monte Carlo simulations.
                 </p>
               </div>
-              <Link
-                href="/products/monte-estate"
-                className="mt-8 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-terracotta transition-colors hover:text-clay"
-              >
-                Learn More
-                <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden="true">
-                  <path
-                    d="M3.5 8h9M8.5 3.5 13 8l-4.5 4.5"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Link>
+              <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
+                <Link
+                  href="/products/monte-estate"
+                  className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-terracotta transition-colors hover:text-clay"
+                >
+                  Learn More
+                  <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden="true">
+                    <path
+                      d="M3.5 8h9M8.5 3.5 13 8l-4.5 4.5"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </Link>
+                <a
+                  href="https://monte.estate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-muted transition-colors hover:text-foreground"
+                >
+                  Visit monte.estate
+                  <svg viewBox="0 0 16 16" fill="none" className="h-3.5 w-3.5" aria-hidden="true">
+                    <path
+                      d="M6 4h6v6M12 4 4 12"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </Reveal>
 
