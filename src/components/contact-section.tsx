@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Reveal } from "@/components/reveal";
 
-const CONTACT_EMAIL = "hello@saguarodigitalventures.com";
+const CONTACT_EMAIL = "jesus@saguarodigitalventures.com";
 
 export function ContactSection() {
   const [status, setStatus] = useState<"idle" | "sent">("idle");

@@ -85,10 +85,10 @@ export default function TermsPage() {
           <p className="mt-3 leading-relaxed">
             Questions about these terms can be sent to{" "}
             <a
-              href="mailto:hello@saguarodigitalventures.com"
+              href="mailto:jesus@saguarodigitalventures.com"
               className="font-medium text-terracotta hover:text-clay"
             >
-              hello@saguarodigitalventures.com
+              jesus@saguarodigitalventures.com
             </a>
             .
           </p>
